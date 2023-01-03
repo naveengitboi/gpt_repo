@@ -1,0 +1,29 @@
+.navbar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem ;
+}
+.logo 
+{
+    color: white;
+    font-weight: bold;
+}
+.navLinks ul 
+{
+    display: flex;
+    justify-content: center;
+}
+.navLinks a 
+{
+    color: white;
+    padding: .85rem 1.25rem;
+}
+
+.normalBtn {
+    border-radius: .125rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}

@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li 
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    padding: .85rem 1rem;
+}
+.glass 
+{
+    background: rgba(255, 255, 255, 0.293);
+        /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+        backdrop-filter: blur(10.5px);
+        -webkit-backdrop-filter: blur(108.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.bgGradient
+{
+background: #03001e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #03001ea3, #ec38bc, #7303c0, #03001e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #03001ec7, #8405ba, #62059f, #03001e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainHeading
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+button {
+    padding: .55rem 1.45rem;
+    margin: 0 .05rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.btnDesigned {
+    background-color: #ff4820;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.app 
+{
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
