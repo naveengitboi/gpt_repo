@@ -1,0 +1,58 @@
+.wtisGPT3
+{
+    padding: 3rem;
+    margin: 2rem 6rem;
+    background-color: #0f427989;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.exploreLib
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 4rem 0;
+}
+.exploreLib>.mainHeading 
+{
+    color: rgb(17, 255, 0);
+    font-size: 2.85rem;
+    width: 50%;
+}
+.exploreLib a 
+{
+    color: white;
+}
+.boxComponentsGrid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .85rem;
+}
+.boxComponent
+{
+    padding: 1rem 2rem;
+}
+.mediumHeading 
+{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    padding: 1rem 0 2rem;
+    font-weight: 500;
+}
+.mediumHeading::before 
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(0, 217, 255);
+}
+.boxComponent>.normalText
+{
+    line-height: 1.5;
+}

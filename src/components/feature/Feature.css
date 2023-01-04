@@ -1,0 +1,24 @@
+.featureContainer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5rem 6rem;
+    padding: 1rem 0;
+}
+.leftContent
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftContent h1 
+{
+    color: white;
+    padding: .85rem 1rem;
+    line-height: 1.25;
+}
+
+.leftContent a 
+{
+    color: skyblue;
+}

@@ -1,0 +1,14 @@
+.companyImages
+{
+    margin: 2rem 0;
+    padding: 5vh 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    mix-blend-mode: screen;
+}
+.companyImages img 
+{
+    width: 90px;
+    margin:1rem;
+}

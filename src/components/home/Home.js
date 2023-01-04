@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
-
+import homeImg from './img/Header Illustration.png'
+import people from './img/Group 81.png'
 
 function Home() {
     
@@ -14,12 +15,16 @@ function Home() {
             </p>
 
             <div className="inputEl">
-                <input type="email" placeholder='Enter your Email' />
+                <input type="email" placeholder='Enter your Email' className='glass' />
                 <button className='btnDesigned'>Get Started</button>
+            </div>
+            <div className="people">
+                <img src={people} alt="" />
+                <p className='normalText'>1,600 people requested access a visit in last 24 hours</p>
             </div>
         </div>
         <div className="homeImgContainer">
-            <img src={{}} alt="" />
+            <img className='homeImg' src={homeImg} alt="" />
         </div>
     </div>
   )

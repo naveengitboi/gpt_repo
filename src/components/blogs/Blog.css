@@ -1,0 +1,23 @@
+.blogContainer
+{
+    border: 1px solid white;
+    padding: 3rem;
+    margin: 2rem 5rem;
+}
+.blogContainer>.mainHeading
+{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.blogCardContainer
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.blogCardContainer .blogCard:nth-child(1)
+{
+    grid-row: span 2;
+    border: 1px solid wheat;
+}

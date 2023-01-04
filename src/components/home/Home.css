@@ -2,4 +2,71 @@
 {
     display: flex;
     justify-content: center;
+    padding: 9rem 3rem 0rem;
+
+}
+.homeContent 
+{
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homeHeading 
+{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: white;
+}
+.homeContent>.normalText 
+{
+    margin: 1.85rem 0 1rem;
+}
+.inputEl 
+{
+    display: flex;
+    align-items: center;
+}
+.inputEl input
+{
+    width: 60%;
+    padding: .4rem 1rem;
+    font-size: 1.05rem;
+    border: none;
+    outline: none;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+.people 
+{
+    margin: 1rem 0;
+    display: flex;
+    align-content: center;
+}
+.people img 
+{
+    height: 50%;
+}
+.people p 
+{
+    margin-top: .5rem;
+    margin-left: .85rem;
+    padding: 0;
+    text-align: center;
+}
+
+.homeImgContainer 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeImg 
+{
+    width: 550px;
 }

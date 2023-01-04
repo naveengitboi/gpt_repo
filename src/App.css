@@ -19,25 +19,31 @@ a
 }
 .glass 
 {
-    background: rgba(255, 255, 255, 0.293);
+    background: rgba(255, 255, 255, 0.34);
         /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
-        backdrop-filter: blur(10.5px);
+        backdrop-filter: blur(20.5px);
         -webkit-backdrop-filter: blur(108.5px);
-        border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .bgGradient
 {
 background: #03001e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #03001ea3, #ec38bc, #7303c0, #03001e);
+    background: -webkit-linear-gradient(to right, #03001ea3, #050f1e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #03001ec7, #8405ba, #62059f, #03001e);
+    background: linear-gradient(to right,
+        #03001eec,
+        #012459);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .mainHeading
 {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.normalText 
+{
+    color: skyblue;
 }
 button {
     padding: .55rem 1.45rem;
@@ -52,10 +58,4 @@ button {
     color: white;
 }
 
-
-
-.app 
-{
-    height: 100vh;
-}
 
