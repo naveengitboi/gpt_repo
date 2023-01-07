@@ -8,6 +8,7 @@ import Feature from './components/feature/Feature'
 import Possibility from './components/possibilities/Possibility'
 import Cta from './components/cta/Cta'
 import Blog from './components/blogs/Blog'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Possibility/>
       <Cta/>
       <Blog/>
+      <Footer/>
     </div>
   )
 }

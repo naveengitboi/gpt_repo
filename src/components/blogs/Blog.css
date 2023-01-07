@@ -1,8 +1,23 @@
 .blogContainer
 {
-    border: 1px solid white;
     padding: 3rem;
     margin: 2rem 5rem;
+}
+.blogCard 
+{
+    overflow: hidden;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: #042C54;
+}
+.blogImg 
+{
+    width: 100%;
+    transition: all .5s ease-in-out;
+    
+}
+.blogImg:hover{
+    transform: scale(1.15);
 }
 .blogContainer>.mainHeading
 {
@@ -14,10 +29,19 @@
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    gap: 2.5rem;
+    margin: 4rem 0;
 }
-.blogCardContainer .blogCard:nth-child(1)
+
+small 
 {
-    grid-row: span 2;
-    border: 1px solid wheat;
+    color: white;
+}
+small a 
+{
+    padding: 0;
+}
+.blogContent
+{
+    padding: 1rem 2rem 3rem;
 }

@@ -4,7 +4,7 @@ import './Blog.css'
 function Card(props) {
   return (
     <div className='blogCard'>
-        <img src={props.src} alt="" />
+        <img src={props.src.img0} className= "blogImg" alt="" />
         <div className="blogContent">
             <small>{props.date}</small>
             <h1 className='mediumHeading'>{props.title}</h1>

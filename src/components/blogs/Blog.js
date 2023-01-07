@@ -12,22 +12,27 @@ function Blog() {
         {
             title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
             date: "Sep 26, 2021",
-            src: {img4}
+            src: {img0}
         },
          {
             title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
             date: "Sep 26, 2021",
-            src: {img3}
+            src: {img0}
         },
         {
             title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
             date: "Sep 26, 2021",
-            src: {img2}
+            src: {img0}
         },
          {
             title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
             date: "Sep 26, 2021",
-            src: {img1}
+            src: {img0}
+        },
+        {
+            title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",
+            date: "Sep 26, 2021",
+            src: {img0}
         },
         {
             title: "GPT-3 and Open  AI is the future. Let us exlore how it is?",

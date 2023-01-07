@@ -1,0 +1,39 @@
+.footerContainer
+{
+    padding:7rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #031B34;
+}
+.footerBtn
+{
+    color: white;
+    border: 1px solid white;
+    margin-top: 3rem;
+    padding: .85rem 1.85rem;
+}
+.footerContent
+{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    line-height: 1.85;
+}
+.footer 
+{
+    margin: 1rem;
+    padding: 1.25rem;
+}
+.footer a 
+{
+    padding: 0;
+    color: white;
+}
+.linkHeading 
+{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
